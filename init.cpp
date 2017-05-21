@@ -2,7 +2,6 @@
 
 int main(int argc, char* argv[]) {
 	
-	std::cout << "Guten Tag" << std::endl;
 	std::cout << "Debug grilles" << std::endl;
 	Blocs::Point p1;
 	p1.print_grille();
@@ -25,6 +24,9 @@ int main(int argc, char* argv[]) {
 	p4.print_grille();
 	p5.rotation();
 	p5.print_grille();
+
+	cout << "Guten Tag" << endl;
+	cout << "Ich bin Berliner" << endl;
 	
 	
 	return 0;
