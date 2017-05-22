@@ -1,6 +1,8 @@
 #include "Blocs.hpp"
+#include "Fenetre.hpp"
 
-int main(int argc, char* argv[]) {
+
+int main(int argc, char** argv) {
 
 	std::cout << "Debug grilles" << std::endl;
 	Blocs::Point p1;
@@ -27,6 +29,12 @@ int main(int argc, char* argv[]) {
 
 	std::cout << "Guten Tag" << std::endl;
 	std::cout << "Ich bin Berliner" << std::endl;
+
+
+	Graphique::Fenetre fen("Titre 1", 800, 600, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, false);
+	Graphique::Fenetre fen2("Titre 2");
+
+
 
 
 	return 0;

@@ -71,6 +71,9 @@
 		</Linker>
 		<Unit filename="Blocs.cpp" />
 		<Unit filename="Blocs.hpp" />
+		<Unit filename="Fenetre.cpp" />
+		<Unit filename="Fenetre.hpp" />
+		<Unit filename="Makefile" />
 		<Unit filename="defs.hpp" />
 		<Unit filename="init.cpp" />
 		<Extensions>
