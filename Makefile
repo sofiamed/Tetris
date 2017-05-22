@@ -6,7 +6,6 @@ THIS_DIR = `pwd`
 
 
 
-
 $(BUILD_DIR)%.o : %.cpp
 	$(COMP) $(OPTIONS) -c $^ -o $@ $(LIBS)
 	

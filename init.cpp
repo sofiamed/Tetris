@@ -1,7 +1,7 @@
 #include "Blocs.hpp"
 
 int main(int argc, char* argv[]) {
-	
+
 	std::cout << "Debug grilles" << std::endl;
 	Blocs::Point p1;
 	p1.print_grille();
@@ -25,9 +25,9 @@ int main(int argc, char* argv[]) {
 	p5.rotation();
 	p5.print_grille();
 
-	cout << "Guten Tag" << endl;
-	cout << "Ich bin Berliner" << endl;
-	
-	
+	std::cout << "Guten Tag" << std::endl;
+	std::cout << "Ich bin Berliner" << std::endl;
+
+
 	return 0;
 }
