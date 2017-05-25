@@ -15,7 +15,7 @@ INIT_FILES = $(BUILD_DIR)init.o	$(BUILD_DIR)Blocs.o $(BUILD_DIR)Fenetre.o
 init: $(INIT_FILES)
 	$(COMP) $(OPTIONS) $^ -o $(BUILD_DIR)Tetris.exe $(LIBS)
 	make clean
-	$(BUILD_DIR)Tetris.exe
+	#$(BUILD_DIR)Tetris.exe
 
 clean:
 	rm -f $(BUILD_DIR)*.o
